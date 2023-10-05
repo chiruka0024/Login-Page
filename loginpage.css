@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/007/164/537/small/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg");
+    background-size: contain;
+    font-family: 'Mulish',sans-serif;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin-left: 36%;
+    margin-top: 7%;
+    text-align: center;
+    color: white;
+}
+.container h1{
+    font-size: 36px;
+    color: aqua;
+}
+
+.container.text{
+    position: relative;
+    top: 7%
+}
+.input1{
+    border: none;
+    background-color: black; 
+    border-bottom: 2px solid white; 
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white; 
+
+}
+.input2{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer ;
+}
+button:hover{
+    border: 3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    color: aqua;
+    cursor: pointer;
+}
